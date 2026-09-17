@@ -1,0 +1,32 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# PyInstaller output
+build/
+dist/
+
+# Inno Setup output
+installer/
+
+# User-specific settings
+cybercam/config/settings.json
+
+# Temporary files
+*.tmp
+*.bak

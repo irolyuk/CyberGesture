@@ -1,0 +1,29 @@
+{
+    "gestures": {
+        "OPEN_PALM": "MEDIA_PLAY_PAUSE",
+        "FIST": "VOLUME_MUTE",
+        "VICTORY": "MEDIA_NEXT",
+        "POINT": "VOLUME_UP",
+        "HEART": "NONE"
+    },
+
+    "custom_actions": {},
+
+    "gesture_control": {
+        "stability_ms": 350,
+        "cooldown_ms": 1000,
+
+        "activation_zone": {
+            "min_x": 0.30,
+            "max_x": 0.70,
+            "min_y": 0.25,
+            "max_y": 0.75,
+
+            "min_hand_width": 0.25,
+            "min_hand_height": 0.42,
+
+            "min_fist_width": 0.18,
+            "min_fist_height": 0.25
+        }
+    }
+}
