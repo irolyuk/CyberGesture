@@ -202,6 +202,24 @@ User-specific settings are stored in:
 
 Default application settings are bundled separately with CyberGesture.
 
+## Tested Configuration
+
+CyberGesture v1.0.0 has been tested on the following system:
+
+| Component | Tested configuration |
+|---|---|
+| OS | Windows 11 64-bit |
+| CPU | Intel Core i5-9400 |
+| RAM | 16 GB |
+| GPU | NVIDIA GeForce GTX 1650 |
+| Camera | Standard webcam |
+| CyberGesture RAM usage | ~375 MB |
+| Installed size | ~380 MB |
+| Internet connection | Not required |
+
+During testing, simultaneous hand and face tracking remained stable even when CyberGesture was restricted to a single logical CPU core.
+
+> These are tested specifications, not minimum system requirements. CyberGesture may work on significantly lower-end hardware, but minimum requirements have not yet been established.
 ---
 
 # Українська
@@ -382,6 +400,24 @@ CyberGesture_Setup.iss
 
 Стандартні налаштування постачаються окремо разом із CyberGesture.
 
+## Протестована конфігурація
+
+CyberGesture v1.0.0 протестовано на такій системі:
+
+| Компонент | Протестована конфігурація |
+|---|---|
+| ОС | Windows 11 64-bit |
+| Процесор | Intel Core i5-9400 |
+| Оперативна пам'ять | 16 ГБ |
+| Відеокарта | NVIDIA GeForce GTX 1650 |
+| Камера | Стандартна вебкамера |
+| Використання RAM CyberGesture | ~375 МБ |
+| Розмір після встановлення | ~380 МБ |
+| Інтернет | Не потрібен |
+
+Під час тестування одночасне відстеження рук та обличчя залишалося стабільним навіть при обмеженні CyberGesture до одного логічного ядра процесора.
+
+> Це протестована конфігурація, а не мінімальні системні вимоги. CyberGesture може працювати на значно слабшому обладнанні, але мінімальні вимоги поки не визначені.
 ---
 
 <div align="center">
