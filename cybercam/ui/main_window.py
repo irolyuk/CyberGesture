@@ -31,7 +31,7 @@ class MainWindow(QMainWindow):
 
         self._camera_worker: CameraWorker | None = None
 
-        self.setWindowTitle("CyberCam")
+        self.setWindowTitle("CyberGesture")
 
         assets_dir = Path(__file__).resolve().parents[2] / "assets" / "icons"
         self._logo_path = assets_dir / "logo.png"
@@ -79,7 +79,7 @@ class MainWindow(QMainWindow):
                 )
             )
 
-        title = QLabel("CYBERCAM")
+        title = QLabel("CYBERGESTURE")
         title.setObjectName("title")
 
         brand_layout.addWidget(self._logo_label)
@@ -318,12 +318,12 @@ class MainWindow(QMainWindow):
                 self.windowIcon()
             )
 
-        self._tray_icon.setToolTip("CyberCam")
+        self._tray_icon.setToolTip("CyberGesture")
 
         tray_menu = QMenu(self)
 
         open_action = QAction(
-            "Open CyberCam",
+            "Open CyberGesture",
             self,
         )
         open_action.triggered.connect(
@@ -372,17 +372,17 @@ class MainWindow(QMainWindow):
 
     def _exit_from_tray(self):
         self._force_exit = True
-    
+
         if self._camera_worker is not None:
             self._camera_worker.stop()
             self._camera_worker.wait()
             self._camera_worker = None
-    
+
         if hasattr(self, "_tray_icon"):
             self._tray_icon.hide()
-    
+
         self.close()
-    
+
         QApplication.instance().quit()
 
     def _apply_style(self):

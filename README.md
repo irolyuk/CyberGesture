@@ -1,6 +1,6 @@
 <div align="center">
 
-# CYBERCAM
+# CYBERGESTURE
 
 ### Webcam Gesture Control for Windows
 
@@ -26,13 +26,13 @@ Control media, keyboard shortcuts, programs, files and folders using
 
 # English
 
-## About CyberCam
+## About CyberGesture
 
-**CyberCam** is a Windows desktop application that turns webcam-detected hand gestures and facial expressions into system actions.
+**CyberGesture** is a Windows desktop application that turns webcam-detected hand gestures and facial expressions into system actions.
 
 It uses **OpenCV** and **MediaPipe** for real-time computer vision and **PySide6** for the desktop interface.
 
-CyberCam runs locally on the computer and provides configurable gesture detection, activation zones, action bindings and camera controls.
+CyberGesture runs locally on the computer and provides configurable gesture detection, activation zones, action bindings and camera controls.
 
 ## Features
 
@@ -64,7 +64,7 @@ Face actions are triggered only when the detected face is inside the configured 
 
 ### Actions
 
-CyberCam can trigger:
+CyberGesture can trigger:
 
 - ▶️ Play / Pause
 - ⏭️ Next Track
@@ -81,7 +81,7 @@ Custom actions can be created and assigned directly inside the application.
 
 ## Gesture Configuration
 
-CyberCam provides configurable controls for:
+CyberGesture provides configurable controls for:
 
 - Activation zone position
 - Activation zone width and height
@@ -99,7 +99,7 @@ Changes can be tested during the current session and saved when needed.
 
 ## Camera & Tracking
 
-CyberCam includes:
+CyberGesture includes:
 
 - Real-time webcam preview
 - Multiple camera support
@@ -112,14 +112,14 @@ CyberCam includes:
 
 ## System Tray
 
-CyberCam can continue running after the main window is closed.
+CyberGesture can continue running after the main window is closed.
 
 When **Minimize to Tray** is enabled:
 
-- Closing the window hides CyberCam to the system tray
+- Closing the window hides CyberGesture to the system tray
 - Double-clicking the tray icon restores the application
-- **Open CyberCam** restores the window
-- **Exit** completely stops CyberCam and releases the webcam
+- **Open CyberGesture** restores the window
+- **Exit** completely stops CyberGesture and releases the webcam
 
 ## Tech Stack
 
@@ -156,7 +156,7 @@ Install runtime dependencies:
 python -m pip install -r requirements.txt
 ```
 
-Run CyberCam:
+Run CyberGesture:
 
 ```powershell
 python main.py
@@ -164,30 +164,30 @@ python main.py
 
 ### Development Dependencies
 
-To install dependencies required for building CyberCam:
+To install dependencies required for building CyberGesture:
 
 ```powershell
 python -m pip install -r requirements-dev.txt
 ```
 
-## Building CyberCam
+## Building CyberGesture
 
 Build the Windows application with PyInstaller:
 
 ```powershell
-python -m PyInstaller --clean --noconfirm CyberCam.spec
+python -m PyInstaller --clean --noconfirm CyberGesture.spec
 ```
 
 The generated application will be available in:
 
 ```text
-dist/CyberCam/
+dist/CyberGesture/
 ```
 
 The Windows installer is configured through:
 
 ```text
-CyberCam_Setup.iss
+CyberGesture_Setup.iss
 ```
 
 and built using **Inno Setup**.
@@ -197,22 +197,22 @@ and built using **Inno Setup**.
 User-specific settings are stored in:
 
 ```text
-%LOCALAPPDATA%\CyberCam\settings.json
+%LOCALAPPDATA%\CyberGesture\settings.json
 ```
 
-Default application settings are bundled separately with CyberCam.
+Default application settings are bundled separately with CyberGesture.
 
 ---
 
 # Українська
 
-## Про CyberCam
+## Про CyberGesture
 
-**CyberCam** — це десктопна програма для Windows, яка перетворює жести рук та міміку обличчя, розпізнані через вебкамеру, на системні дії.
+**CyberGesture** — це десктопна програма для Windows, яка перетворює жести рук та міміку обличчя, розпізнані через вебкамеру, на системні дії.
 
 Для комп'ютерного зору в реальному часі використовуються **OpenCV** та **MediaPipe**, а інтерфейс програми створений за допомогою **PySide6**.
 
-CyberCam працює локально на комп'ютері та дозволяє налаштовувати розпізнавання жестів, зону активації, прив'язку дій і камеру.
+CyberGesture працює локально на комп'ютері та дозволяє налаштовувати розпізнавання жестів, зону активації, прив'язку дій і камеру.
 
 ## Можливості
 
@@ -244,7 +244,7 @@ CyberCam працює локально на комп'ютері та дозво�
 
 ### Дії
 
-CyberCam може виконувати:
+CyberGesture може виконувати:
 
 - ▶️ Play / Pause
 - ⏭️ Наступний трек
@@ -257,11 +257,11 @@ CyberCam може виконувати:
 - 📄 Відкриття файлів
 - 📁 Відкриття папок
 
-Власні дії можна створювати та призначати безпосередньо у CyberCam.
+Власні дії можна створювати та призначати безпосередньо у CyberGesture.
 
 ## Налаштування жестів
 
-У CyberCam можна налаштувати:
+У CyberGesture можна налаштувати:
 
 - Положення зони активації
 - Ширину та висоту зони
@@ -279,7 +279,7 @@ CyberCam може виконувати:
 
 ## Камера та відстеження
 
-CyberCam підтримує:
+CyberGesture підтримує:
 
 - Перегляд вебкамери в реальному часі
 - Декілька камер
@@ -292,14 +292,14 @@ CyberCam підтримує:
 
 ## Системний трей
 
-CyberCam може продовжувати працювати після закриття головного вікна.
+CyberGesture може продовжувати працювати після закриття головного вікна.
 
 Якщо увімкнено **Minimize to Tray**:
 
-- Закриття вікна ховає CyberCam у системний трей
+- Закриття вікна ховає CyberGesture у системний трей
 - Подвійний клік по іконці повертає вікно
-- **Open CyberCam** відкриває програму
-- **Exit** повністю завершує CyberCam та звільняє вебкамеру
+- **Open CyberGesture** відкриває програму
+- **Exit** повністю завершує CyberGesture та звільняє вебкамеру
 
 ## Технології
 
@@ -336,7 +336,7 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-Запуск CyberCam:
+Запуск CyberGesture:
 
 ```powershell
 python main.py
@@ -350,24 +350,24 @@ python main.py
 python -m pip install -r requirements-dev.txt
 ```
 
-## Збірка CyberCam
+## Збірка CyberGesture
 
 Збірка Windows-програми через PyInstaller:
 
 ```powershell
-python -m PyInstaller --clean --noconfirm CyberCam.spec
+python -m PyInstaller --clean --noconfirm CyberGesture.spec
 ```
 
 Готова збірка з'явиться у:
 
 ```text
-dist/CyberCam/
+dist/CyberGesture/
 ```
 
 Конфігурація Windows-інсталятора знаходиться у:
 
 ```text
-CyberCam_Setup.iss
+CyberGesture_Setup.iss
 ```
 
 Інсталятор збирається за допомогою **Inno Setup**.
@@ -377,16 +377,16 @@ CyberCam_Setup.iss
 Персональні налаштування зберігаються у:
 
 ```text
-%LOCALAPPDATA%\CyberCam\settings.json
+%LOCALAPPDATA%\CyberGesture\settings.json
 ```
 
-Стандартні налаштування постачаються окремо разом із CyberCam.
+Стандартні налаштування постачаються окремо разом із CyberGesture.
 
 ---
 
 <div align="center">
 
-## CyberCam v1.0.0
+## CyberGesture v1.0.0
 
 **Created by Ivan Roliuk**
 

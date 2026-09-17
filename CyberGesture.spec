@@ -34,7 +34,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name="CyberCam",
+    name="CyberGesture",
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -50,5 +50,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name="CyberCam",
+    name="CyberGesture",
 )

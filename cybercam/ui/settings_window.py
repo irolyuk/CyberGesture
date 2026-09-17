@@ -80,7 +80,7 @@ class SettingsView(QWidget):
         camera_title.setObjectName("tableHeader")
 
         camera_description = QLabel(
-            "Select which camera CyberCam should use."
+            "Select which camera CyberGesture should use."
         )
         camera_description.setObjectName("sectionDescription")
         camera_description.setWordWrap(True)

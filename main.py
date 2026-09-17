@@ -8,8 +8,8 @@ from cybercam.ui.main_window import MainWindow
 def main():
     app = QApplication(sys.argv)
 
-    app.setApplicationName("CyberCam")
-    app.setOrganizationName("CyberCam")
+    app.setApplicationName("CyberGesture")
+    app.setOrganizationName("CyberGesture")
 
     window = MainWindow()
     window.show()

@@ -17,7 +17,7 @@ def _resource_path(relative_path: str) -> Path:
     Шлях до ресурсів програми.
 
     Під час звичайного запуску:
-        C:/My files/CyberCam/...
+        <project_root>/...
 
     Після збірки PyInstaller:
         тимчасова папка _MEIPASS/...
@@ -32,10 +32,10 @@ def _resource_path(relative_path: str) -> Path:
 
 def _user_settings_path() -> Path:
     """
-    Користувацькі налаштування CyberCam.
+    Користувацькі налаштування CyberGesture.
 
     Windows:
-        %LOCALAPPDATA%/CyberCam/settings.json
+        %LOCALAPPDATA%/CyberGesture/settings.json
     """
     local_app_data = os.getenv("LOCALAPPDATA")
 
@@ -46,7 +46,7 @@ def _user_settings_path() -> Path:
 
     return (
         base_path
-        / "CyberCam"
+        / "CyberGesture"
         / "settings.json"
     )
 
